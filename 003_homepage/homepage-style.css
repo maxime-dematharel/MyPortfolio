@@ -89,7 +89,6 @@ button{
 
 
 
-
 /* HOMEPAGE */
 
 .homepage-illustration-citation-wrapper .homepage-screen-illustration{
@@ -178,7 +177,7 @@ button{
   color: #1D1D1D;
   padding-right: 100px;
   flex: 0 0 auto;
-  font-size: 20px;
+  font-size: 25px;
   width: 570px;
   padding-left: 70px;
   line-height: 50px;
@@ -449,6 +448,7 @@ button{
 
 .CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card span{
   font-weight: 700;
+
 }
 
 .CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card a{
@@ -663,12 +663,4 @@ button{
 
 
 /* RESPONSIVE CSS */
-
-
-
-
-
-
-
-
 }
