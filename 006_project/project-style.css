@@ -234,16 +234,17 @@ h3#h3-project{
   margin-left: 100px;
   margin-right: 100px;
   font-size: 18px;
-  line-height: 50px;
-  font-weight: 200;
+  line-height: 40px;
+  font-weight: 300;
 }
 
 .CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card span{
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .CARD-STUDIES .card-wrapper .body-text-card a{
   color: #0F4C81;
+  line-height: 100px;
 }
 
 /* (END) Card Studie */
