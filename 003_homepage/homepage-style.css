@@ -86,6 +86,10 @@ button{
 .Header .Header-wrapper .header-button-red:hover{
   color: #0F4C81;
 }
+
+
+
+
 /* HOMEPAGE */
 
 .homepage-illustration-citation-wrapper .homepage-screen-illustration{
@@ -173,12 +177,12 @@ button{
   color: #1D1D1D;
   padding-right: 100px;
   flex: 0 0 auto;
-  font-size: 40px;
+  font-size: 25px;
   width: 570px;
   padding-left: 70px;
-  line-height: 80px;
+  line-height: 50px;
   font-weight: bolder;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 
 
 
