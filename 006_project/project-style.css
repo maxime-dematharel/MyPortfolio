@@ -229,6 +229,10 @@ h3#h3-project{
   margin-left: -800px;
 }
 
+.CARD-STUDIES .card-wrapper .body-card a{
+  text-decoration: none;
+}
+
 .CARD-STUDIES .card-wrapper .body-text-card{
   font-family: 'Montserrat', sans-serif;
   margin-left: 100px;
