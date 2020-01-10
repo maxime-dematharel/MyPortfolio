@@ -89,8 +89,7 @@ h3#h3-project{
 }
 
 .Header .Header-wrapper .header-button:hover{
-  color: #1D1D1D;
-  cursor: not-allowed;
+  color: #0F4C81;
   height: 100px;
 }
 
@@ -303,7 +302,6 @@ h3#h3-project{
   font-size: 18px;
   color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
-  cursor: not-allowed;
 
 
 }
