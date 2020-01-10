@@ -89,7 +89,8 @@ h3#h3-project{
 }
 
 .Header .Header-wrapper .header-button:hover{
-  color: #0F4C81;
+  color: #1D1D1D;
+  cursor: not-allowed;
   height: 100px;
 }
 
