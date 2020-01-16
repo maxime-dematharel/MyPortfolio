@@ -326,8 +326,8 @@ button{
 /* Card Latest Work  */
 
 .CARD-STUDIES{
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 10vw;
+  margin-left: 10vw;
   margin-top: 35px;
   background-color: #FFF;
   border-radius: 20px;
@@ -337,8 +337,8 @@ button{
 }
 
 .CARD-STUDIES .card-wrapper .card-img-background{
-  width: 420px;
-  height: 400px;
+  width: 29vw;
+  height: 27vw;
   background-color: #FFF;
   border-radius: 10px 0px 0px 10px;
   display: flex;
@@ -347,8 +347,8 @@ button{
 }
 
 .CARD-STUDIES .card-wrapper .card-img-background2{
-  width: 420px;
-  height: 400px;
+  width: 29vw;
+  height: 27vw;
   background-color: #FFF;
   border-radius: 10px 0px 0px 10px;
   display: flex;
@@ -360,8 +360,8 @@ button{
 }
 
 .CARD-STUDIES .card-wrapper .card-img-background2 img{
-  width: 309px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   background-color: #FFF;
   border-radius: 10px 0px 0px 10px;
   margin-top: 40px;
@@ -370,15 +370,15 @@ button{
 }
 
 .CARD-STUDIES .card-wrapper .card-img-background .image-background{
-  width: 420px;
-  height: 400px;
+  width: 100%;
+  height: auto;
 
 
 }
 
 .CARD-STUDIES .card-wrapper .card-img-background .image-background img{
-  width: 420px;
-  height: 400px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   display: flex;
   justify-content: center;
@@ -389,8 +389,8 @@ button{
 }
 
 .CARD-STUDIES .card-wrapper{
-  width: 1240px;
-  height: 400px;
+  width: 80vw;
+  height: 27vw;
   background-color: #F9F9F9;
   display: flex;
   flex-direction: row;
@@ -405,9 +405,9 @@ button{
 
 .CARD-STUDIES .card-wrapper .number-card{
   font-family: 'Montserrat', sans-serif;
-  margin-left: 100px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
   font-size: 20px;
   font-weight: 900;
   color: #1D1D1D;
@@ -418,9 +418,9 @@ button{
 
 .CARD-STUDIES .card-wrapper .title-card {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 100px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
   font-size: 20px;
   font-weight: 900;
   color: #1D1D1D;
@@ -430,15 +430,14 @@ button{
 }
 
 .CARD-STUDIES .card-wrapper .body-card{
-  width: 800px;
+  width: 51vw;
   text-align: left;
-  margin-left: -800px;
+
 }
 
 .CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card{
   font-family: 'Montserrat', sans-serif;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5vw;
   font-size: 18px;
   line-height: 40px;
   font-weight: 300;
@@ -457,6 +456,7 @@ button{
 
 
 }
+
 
 
 /* (END) Card Studie */
