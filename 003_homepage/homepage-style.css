@@ -672,8 +672,8 @@ END contact me */
 }
 
 .Footer .Footer-wrapper{
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 10vw;
+  margin-left: 10vw;
   margin-bottom: 30px;
   text-align: right;
   display: flex;
@@ -742,9 +742,27 @@ END contact me */
 
 }
 
-/* (END) FOOTER */
-
-
+/* (END) FOOTER *//*
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
 /* RESPONSIVE CSS */
 
 
