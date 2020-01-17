@@ -1253,171 +1253,169 @@ body{
 
   /* HEADER */
 
-  .Header {
-    width: 100vw;
-    height: 100px;
-    background-color: #FFF;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
+
+    .Header {
+      width: 100vw;
+      height: 60px;
+      background-color: #FFF;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 2;
 
 
-  }
+    }
 
-  .Header .Header-wrapper{
-    position: fixed;
-    z-index: 2;
-    width: 375px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px;
-    left: 0;
-  }
-
-
-
-
-
-
-  .Header .Header-wrapper .header-button{
-    width: 110px;
-    height: 100px;
-    margin-right: 0vw;
-    text-align: center;
-    border: none;
-    background-color: #FFF;
-    font-size: 13px;
-    color: #1D1D1D;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-
-
-
-  }
-
-
-  .Header .Header-wrapper .header-button:hover{
-    color: #1D1D1D;
-  }
-
-  .Header .Header-wrapper .header-button-red{
-    width: 110px;
-    height: 100px;
-    text-align: center;
-    border: none;
-    background-color: #FFF;
-    font-size: 13px;
-    color: #1D1D1D;
-    font-family: 'Montserrat', sans-serif;
-
-  }
-
-  .Header .Header-wrapper .header-button-red:hover{
-    color: #0F4C81;
-  }
-
-
-
-  /* HOMEPAGE */
-
-  .homepage-illustration-citation-wrapper .homepage-screen-illustration{
-    width: 90vw;
-    height: 350px;
-    background-color: #FFF;
-    text-align: center;
-    border-bottom-right-radius: 10px;
-    z-index: 1;
-
-
-  }
-
-  .homepage-illustration-citation-wrapper .homepage-screen-illustration .illustration-homepage{
-    width: 90vw;
-    height: 350px;
-    object-fit: cover;
-    border-bottom-right-radius: 10px;
-
-  }
-
-
-  .homepage-illustration-citation-wrapper .citation .homepage-button{
-    width: 130px;
-    height: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    border: none;
-    border-radius: 5px;
-    border: 1px solid #0F4C81;
-    color: #0F4C81;
-    margin-top: 20px;
-
-
-  }
-
-
-
-
-  .homepage-illustration-citation-wrapper .h1-background{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    width: 100vw;
-    text-align: right;
-    color: #1D1D1D;
-    opacity: 0.1;
-    letter-spacing: 10px;
-    font-size: 180px;
-    position: absolute;
-    z-index: 0;
-    margin-top: 260px;
-    overflow: hidden;
-  }
-
-  .homepage-illustration-citation-wrapper .logo-socials{
-    width: 40px;
-    height: auto;
-    position: fixed;
-    z-index: 3;
-    right: 0;
-
-
-  }
-
-
-  .illustration-homepage{
-    width: 100%;
-    align-items: center;
-
-  }
-
-  .homepage-illustration-citation-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .homepage-illustration-citation-wrapper .citation{
-    font-family: 'Montserrat', sans-serif;
-    color: #1D1D1D;
-    padding-right: 0px;
-    flex: 0 0 auto;
-    font-size: 15px;
-    width: 90vw;
-    margin-top: 5vw;
-    padding-left: 0px;
-    line-height: 30px;
-    font-weight: bolder;
-    letter-spacing: 0.7px;
+    .Header .Header-wrapper{
+      position: fixed;
+      z-index: 2;
+      width: 375px;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0px;
+      left: 0;
+    }
 
 
 
 
 
-  }
+
+    .Header .Header-wrapper .header-button{
+      width: 110px;
+      height: 60px;
+      margin-right: 0vw;
+      text-align: center;
+      border: none;
+      background-color: #FFF;
+      font-size: 13px;
+      color: #1D1D1D;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+
+
+
+    }
+
+
+    .Header .Header-wrapper .header-button:hover{
+      color: #1D1D1D;
+    }
+
+    .Header .Header-wrapper .header-button-red{
+      width: 110px;
+      height: 60px;
+      text-align: center;
+      border: none;
+      background-color: #FFF;
+      font-size: 13px;
+      color: #1D1D1D;
+      font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .Header .Header-wrapper .header-button-red:hover{
+      color: #0F4C81;
+    }
+
+
+
+    /* HOMEPAGE */
+
+    .homepage-illustration-citation-wrapper .homepage-screen-illustration{
+      width: 90vw;
+      height: 350px;
+      background-color: #FFF;
+      text-align: center;
+      border-bottom-right-radius: 10px;
+      z-index: 1;
+
+
+    }
+
+    .homepage-illustration-citation-wrapper .homepage-screen-illustration .illustration-homepage{
+      width: 90vw;
+      height: 350px;
+      object-fit: cover;
+      border-bottom-right-radius: 10px;
+
+    }
+
+
+    .homepage-illustration-citation-wrapper .citation .homepage-button{
+      width: 130px;
+      height: 50px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      border: none;
+      border-radius: 5px;
+      border: 1px solid #0F4C81;
+      background-color: #0F4C81;
+      color: #FFF;
+      margin-top: 20px;
+      z-index: 1;
+
+    }
+
+
+
+
+    .homepage-illustration-citation-wrapper .h1-background{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      width: 100vw;
+      text-align: right;
+      color: #1D1D1D;
+      opacity: 0.1;
+      letter-spacing: 10px;
+      font-size: 180px;
+      position: absolute;
+      z-index: 0;
+
+      overflow: hidden;
+    }
+
+    .homepage-illustration-citation-wrapper .logo-socials{
+      width: 40px;
+      height: auto;
+      position: fixed;
+      z-index: 3;
+      right: 0;
+
+
+    }
+
+
+    .illustration-homepage{
+      width: 100%;
+      align-items: center;
+
+    }
+
+    .homepage-illustration-citation-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .homepage-illustration-citation-wrapper .citation{
+      font-family: 'Montserrat', sans-serif;
+      color: #1D1D1D;
+      padding-right: 0px;
+      flex: 0 0 auto;
+      font-size: 15px;
+      width: 90vw;
+      margin-top: 5vw;
+      padding-left: 0px;
+      line-height: 30px;
+      font-weight: bolder;
+      letter-spacing: 1px;
+      z-index: 1;
+    }
 
   /* scroll down mouse footer */
 
