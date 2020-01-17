@@ -1290,7 +1290,7 @@ body{
     text-align: center;
     border: none;
     background-color: #FFF;
-    font-size: 18px;
+    font-size: 13px;
     color: #1D1D1D;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -1310,7 +1310,7 @@ body{
     text-align: center;
     border: none;
     background-color: #FFF;
-    font-size: 18px;
+    font-size: 13px;
     color: #1D1D1D;
     font-family: 'Montserrat', sans-serif;
 
@@ -1348,7 +1348,7 @@ body{
     width: 130px;
     height: 50px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     border: none;
     border-radius: 5px;
     border: 1px solid #0F4C81;
@@ -1358,13 +1358,7 @@ body{
 
   }
 
-  .homepage-illustration-citation-wrapper .citation .homepage-button:hover{
-    background-color: #0F4C81;
-    color: #fff;
-    border: 2px solid;
-    border-color: #0F4C81;
-    font-weight: bold;
-  }
+
 
 
   .homepage-illustration-citation-wrapper .h1-background{
