@@ -1411,7 +1411,7 @@ body{
     padding-left: 0px;
     line-height: 30px;
     font-weight: bolder;
-    letter-spacing: 1px;
+    letter-spacing: 0.7px;
 
 
 
@@ -1553,17 +1553,16 @@ body{
   }
 
   /* Card Studie */
-
 .CARD-STUDIES{
-    margin-right: 5vw;
-    margin-left: 5vw;
-    margin-top: 35px;
-    background-color: #FFF;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-top: 35px;
+  background-color: #FFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 
-  }
+    }
 
 .CARD-STUDIES .card-wrapper .card-img-background{
     width: 36vw;
@@ -1595,10 +1594,11 @@ body{
 
   }
 
-  .CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card a{
+  .CARD-STUDIES .card-wrapper .image-text-wrapper .bodytext-card a{
     font-family: 'Montserrat', sans-serif;
     color: #0F4C81;
     line-height: 10px;
+
 
 
   }
@@ -1611,14 +1611,14 @@ body{
 
 
 
-  }
+    }
 
-.CARD-STUDIES .card-wrapper .card-img-background .image-background{
+.CARD-STUDIES .card-wrapper .card-img-background .imagebackground{
     width: 100%;
     height: auto;
 
 
-  }
+    }
 
 .CARD-STUDIES .card-wrapper .card-img-background .image-background img{
     width: 100%;
@@ -1630,7 +1630,7 @@ body{
     border-bottom-left-radius: 10px;
 
 
-  }
+    }
 
 .CARD-STUDIES .card-wrapper{
     width: 90vw;
@@ -1645,180 +1645,180 @@ body{
     margin-bottom: 50px;
     box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
 
-  }
+    }
 
-.CARD-STUDIES .card-wrapper .number-card{
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 2vw;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 10px;
-    font-weight: 900;
-    color: #1D1D1D;
-    opacity: 0.8;
+  .CARD-STUDIES .card-wrapper .number-card{
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 0vw;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 13px;
+      font-weight: 900;
+      color: #1D1D1D;
+      opacity: 0.8;
 
 
-  }
+    }
 .CARD-STUDIES .card-wrapper .title-card {
     font-family: 'Montserrat', sans-serif;
-    margin-left: 2vw;
+    margin-left: 0vw;
     margin-top: 0px;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 900;
     color: #1D1D1D;
     opacity: 1;
     text-decoration: none;
 
-  }
+    }
 
-.CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card{
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 2vw;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    font-size: 10px;
-    line-height: 20px;
-    font-weight: 300;
-
-
-  }
-
-.CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card span{
-    font-weight: 700;
+  .CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card{
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 0vw;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-size: 13px;
+      line-height: 20px;
+      font-weight: 300;
 
 
-  }
+    }
 
-  /* (END) Card Studie */
-
-  /* Card Articles */
-
-
-      #h1-articles{
-        width: 230px;
-        font-size: 30px;
-        font-weight: 900;
-        font-family: 'Montserrat', sans-serif;
-        border-bottom: 4px solid #0F4C81;
-        width: 160px;
-        margin-bottom: 40px;
-
-      }
-
-      .card-medium-wrapper{
-        display: flex;
-        flex-direction: column;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        width: 90vw;
-        height: auto;
-        margin-bottom: 0px;
-
-      }
+  .CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card span{
+      font-weight: 700;
 
 
+    }
 
-      .card-medium{
-        width: 100%;
-        height: 200px;
-        margin-bottom: 40px;
-        background-color: #F9F9F9;
-        border-radius: 10px;
+    /* (END) Card Studie */
 
-        box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
-
-      }
-
-      .card-medium .card-medium-img-background{
-        width: 200px;
-        height: 200px;
-        background-color: #FFF;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        display: flex;
-        align-items: center;
-        overflow: hidden;
-
-      }
-
-      .card-medium .card-medium-img-background img{
-        width: 36vw;
-        height: 200px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-
-      }
-
-      .card-medium .text-card-medium-wrapper{
-        width: 250px;
-        height: 200px;
-        margin-right: 5px;
-        margin-left: 10px;
-        font-size: 12px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: stretch;
+    /* Card Articles */
 
 
-      }
+        #h1-articles{
+          width: 230px;
+          font-size: 20px;
+          font-weight: 900;
+          font-family: 'Montserrat', sans-serif;
+          border-bottom: 4px solid #0F4C81;
+          width: 107px;
+          margin-bottom: 40px;
 
-      .card-medium .text-card-medium-wrapper .text-card-medium .info-card-medium {
-        font-family: 'Montserrat', sans-serif;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        bottom: 0;
+        }
 
+        .card-medium-wrapper{
+          display: flex;
+          flex-direction: column;
+          margin-left: 5vw;
+          margin-right: 5vw;
+          width: 90vw;
+          height: auto;
+          margin-bottom: 0px;
 
-      }
-
-      .card-medium .text-card-medium-wrapper .text-card-medium .info-card-medium span{
-        font-family: 'Montserrat', sans-serif;
-        font-weight: lighter;
+        }
 
 
 
-      }
+        .card-medium{
+          width: 100%;
+          height: 150px;
+          margin-bottom: 40px;
+          background-color: #F9F9F9;
+          border-radius: 10px;
+
+          box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
+
+        }
+
+        .card-medium .card-medium-img-background{
+
+          height: 150px;
+          background-color: #F9F9F9;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          display: flex;
+          align-items: center;
+          overflow: hidden;
+
+        }
+
+        .card-medium .card-medium-img-background img{
+          width: 135px;
+          height: 150px;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
 
 
-      .card-medium .text-card-medium-wrapper img{
-        width: 25px;
-        height: 25px;
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
+        }
 
-      }
+        .card-medium .text-card-medium-wrapper{
+          width: 250px;
+          height: 150px;
+          margin-right: 10px;
+          margin-left: 0px;
+          font-size: 13px;
 
-      .card-medium .text-card-medium-wrapper .text-card-medium{
-        height: 250px;
-        line-height: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-      }
-
-      .card-medium .text-card-medium-wrapper .text-card-medium .info-text-card-medium{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-end;
-
-      }
-
-      .card-medium .text-card-medium-wrapper .text-card-medium .titre-card-medium a{
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        text-decoration: none;
-        color: #1D1D1D;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-content: stretch;
 
 
-      }
+        }
 
+        .card-medium .text-card-medium-wrapper .text-card-medium .info-card-medium {
+          font-family: 'Montserrat', sans-serif;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          bottom: 0;
+
+
+        }
+
+        .card-medium .text-card-medium-wrapper .text-card-medium .info-card-medium span{
+          font-family: 'Montserrat', sans-serif;
+          font-weight: lighter;
+
+
+
+        }
+
+
+        .card-medium .text-card-medium-wrapper img{
+          width: 25px;
+          height: 25px;
+          display: flex;
+          justify-content: space-between;
+          align-items: stretch;
+
+        }
+
+        .card-medium .text-card-medium-wrapper .text-card-medium{
+          height: 250px;
+          line-height: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+        }
+
+        .card-medium .text-card-medium-wrapper .text-card-medium .info-text-card-medium{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+
+        }
+
+        .card-medium .text-card-medium-wrapper .text-card-medium .titre-card-medium a{
+          font-family: 'Montserrat', sans-serif;
+          font-weight: bold;
+          text-decoration: none;
+          color: #1D1D1D;
+          margin: 0px;
+
+        }
 
   #h1-contactme{
     width: 260px;
