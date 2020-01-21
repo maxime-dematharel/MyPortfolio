@@ -6,8 +6,7 @@ body{
 
 main{
   width: 100vw;
-  margin-left: 100px;
-  margin-right: 100px;
+
 }
 
 button{
@@ -42,7 +41,7 @@ h2{
 h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  margin-left: 100px;
+  margin-left: 10vw;
   margin-top: 100px;
   margin-bottom: 50px;
   color: #1D1D1D;
@@ -89,10 +88,10 @@ h4{
 
 .body-text{
   font-family: 'Montserrat', sans-serif;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10vw;
+  margin-right: 10vw;
   font-size: 18px;
-  line-height: 50px;
+  line-height: 40px;
   letter-spacing: 0.7px;
   width: 60vw;
 }
@@ -114,8 +113,8 @@ h4{
 }
 
 .Header .Header-wrapper{
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 10vw;
+  margin-left: 10vw;
   margin-bottom: 30px;
   text-align: right;
   display: flex;
@@ -191,7 +190,7 @@ h4{
   font-family: 'Montserrat'sans-serif;
   color: #1D1D1D;
   width: 400px;
-  margin-right: 100px;
+  margin-right: 10vw;
   font-size: 40px;
   line-height: 70px;
   letter-spacing: 1pt;
@@ -360,8 +359,8 @@ h4{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-bottom: 100px;
 
 
@@ -383,8 +382,8 @@ h4{
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10vw;
+  margin-right: 7vw;
   margin-bottom: 0px;
   font-family: 'Montserrat'sans-serif;
   font-size: 30px;
@@ -404,8 +403,8 @@ h4{
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 7vw;
+  margin-right: 10vw;
   margin-bottom: 0px;
   font-family: 'Montserrat'sans-serif;
   font-size: 30px;
@@ -450,8 +449,8 @@ h4{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-top: 50px;
 
 }
@@ -477,7 +476,7 @@ h4{
 }
 
 .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper .title-smallcard{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat'sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: #1D1D1D;
@@ -508,8 +507,8 @@ h4{
 /* Card Studies  */
 
 .CARD-STUDIES{
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 10vw;
+  margin-left: 10vw;
   margin-top: 35px;
   margin-bottom: 35px;
   background-color: #FFF;
@@ -521,8 +520,8 @@ h4{
 }
 
 .CARD-STUDIES .card-img-background{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background-color: #FFF;
   border-radius: 20px 0px 0px 20px;
   display: flex;
@@ -540,8 +539,8 @@ h4{
 }
 
 .CARD-STUDIES .card-wrapper{
-  width: 40vw;
-  height: 250px;
+  width: 500px;
+  height: 200px;
   background-color: #F9F9F9;
   display: flex;
   flex-direction: row;
@@ -617,8 +616,8 @@ h4{
 }
 
 .Footer .Footer-wrapper{
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 10vw;
+  margin-left: 10vw;
   margin-bottom: 30px;
   text-align: right;
   display: flex;
