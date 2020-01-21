@@ -341,3 +341,230 @@ h3#h3-project{
 }
 
 /* (END) FOOTER */
+
+
+@media all and (max-width:375px) {
+
+
+
+  /* HEADER */
+
+
+      .Header {
+        width: 100vw;
+        height: 60px;
+        background-color: #FFF;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+
+
+      }
+
+      .Header .Header-wrapper{
+        position: fixed;
+        z-index: 2;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0px;
+        left: 0;
+      }
+
+      .Header .Header-wrapper .header-right-wrapper{
+        width: 75vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-right: 0px;
+      }
+
+      .Header .Header-wrapper .header-button-back-red{
+        width: 25vw;
+        height: 60px;
+        padding: 0px;
+        text-align: center;
+        border: none;
+        background-color: #0F4C81;
+        font-size: 13px;
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+
+      }
+
+      .Header .Header-wrapper .header-button{
+        width: 25vw;
+        height: 60px;
+        margin-right: 0vw;
+        text-align: center;
+        border: none;
+        background-color: #FFF;
+        font-size: 13px;
+        color: #1D1D1D;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+
+
+
+      }
+
+
+      .Header .Header-wrapper .header-button-red{
+        width: 25vw;
+        height: 60px;
+        text-align: center;
+        border: none;
+        background-color: #FFF;
+        font-size: 13px;
+        color: #1D1D1D;
+        font-family: 'Montserrat', sans-serif;
+
+      }
+
+
+/* Card Studie */
+.CARD-STUDIES{
+margin-right: 5vw;
+margin-left: 5vw;
+margin-top: 35px;
+background-color: #FFF;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+
+  }
+
+.CARD-STUDIES .card-wrapper .card-img-background{
+  width: 36vw;
+  height: 60vw;
+  background-color: #FFF;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CARD-STUDIES .card-wrapper .card-img-background2{
+  width: 36vw;
+  height: 60vw;
+  background-color: #FFF;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+
+}
+
+.CARD-STUDIES .card-wrapper .body-card{
+  width: 51vw;
+  height: 100%;
+  text-align: left;
+
+}
+
+.CARD-STUDIES .card-wrapper .image-text-wrapper .bodytext-card a{
+  font-family: 'Montserrat', sans-serif;
+  color: #0F4C81;
+  line-height: 10px;
+
+
+
+}
+
+.CARD-STUDIES .card-wrapper .card-img-background2 img{
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  border-radius: 10px 0px 0px 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+
+
+  }
+
+.CARD-STUDIES .card-wrapper .card-img-background .imagebackground{
+  width: 100%;
+  height: auto;
+
+
+  }
+
+.CARD-STUDIES .card-wrapper .card-img-background .image-background img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+
+  }
+
+.CARD-STUDIES .card-wrapper{
+  width: 90vw;
+  height: 60vw;
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
+
+  }
+
+.CARD-STUDIES .card-wrapper .number-card{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0vw;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 900;
+    color: #1D1D1D;
+    opacity: 0.8;
+
+
+  }
+.CARD-STUDIES .card-wrapper .title-card {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 0vw;
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  color: #1D1D1D;
+  opacity: 1;
+  text-decoration: none;
+
+  }
+
+.CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0vw;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+
+
+  }
+
+.CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card span{
+    font-weight: 700;
+
+
+  }
+
+  /* (END) Card Studie */
+
+
+}
