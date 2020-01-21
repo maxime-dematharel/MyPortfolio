@@ -687,3 +687,267 @@ h4{
 }
 
 /* (END) FOOTER */
+
+/* RESPONSIVE */
+/*
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+*/
+
+@media all and (max-width:768px) {
+
+  .body-text{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.7px;
+    width: 80vw;
+  }
+
+  /* ACCROCHE I am a passionate designer + illustration */
+
+
+  .about-screen-wrapper h4 {
+    font-family: 'Montserrat'sans-serif;
+    color: #1D1D1D;
+    width: 400px;
+    margin-right: 10vw;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 1pt;
+    margin-bottom: 15px;
+
+  }
+
+
+  #table {
+  	display: table;
+  	width: 100%;
+  	height: 100%;
+  }
+
+  #centeralign {
+  	display: table-cell;
+  	vertical-align: middle;
+  }
+
+
+  .typewrite{
+    color: #1D1D1D;
+    text-decoration: none;
+  }
+
+  .H1-Iam span{
+    color: #C44E54;
+
+  }
+
+  .about-screen-wrapper {
+    width: 100vw;
+    height: 28vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 170px;
+    margin-bottom: 100px;
+  }
+
+
+  .about-screen-wrapper .illustration-about .illustration-about-picture{
+    width: 250px;
+    margin-left: 10vw;
+    margin-right: 70px;
+
+
+  }
+
+  /* (END) ACCROCHE I am a passionate designer + illustration */
+
+  /* Soft skills */
+
+  .text-left-wrapper{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-bottom: 0px;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+
+  }
+
+  .text-left-wrapper .P-align-self{
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  .text-right-wrapper{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    margin-bottom: 0px;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+
+  }
+
+  .text-right-wrapper .P2-align-self{
+    font-family: 'Montserrat', sans-serif;
+    align-self: flex-end;
+  }
+
+  .softskills-wrapper .image-softskills img{
+    width: 180px;
+  }
+
+  .softskills-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .softskills-wrapper .text-left-wrapper .text-softskill{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .softskills-wrapper .text-right-wrapper .text-softskill{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* (END) Soft skills */
+
+  /* Softwares */
+
+  .software-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 100px;
+
+
+  }
+
+  .software-wrapper .image-software{
+    weight: 100px;
+    height: 100px;
+
+  }
+
+  /* (END) Softwares */
+
+  /* Card-competences */
+
+  .CARD-WRAPPER{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence{
+    width: 30%;
+    height: 200px;
+    /*background-image:
+      url("02_Images copie/patern2.jpeg");*/
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
+
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper .title-smallcard{
+    font-family: 'Montserrat'sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1D1D1D;
+    text-align: center;
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper .body-smallcard{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 26px;
+    color: #1D1D1D;
+
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+
+  }
+
+
+
+  .CARD-STUDIES{
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #FFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+}
