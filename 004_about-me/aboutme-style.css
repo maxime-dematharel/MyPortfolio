@@ -951,3 +951,543 @@ h4{
   }
 
 }
+
+
+
+
+
+
+
+@media all and (max-width:375px) {
+
+  .body-text{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: 0.7px;
+    width: 80vw;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  h1 span{
+    font-weight: 400;
+    font-size: 18px;
+
+  }
+
+  /* HEADER */
+
+
+      .Header {
+        width: 100vw;
+        height: 60px;
+        background-color: #FFF;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+
+
+      }
+
+      .Header .Header-wrapper{
+        position: fixed;
+        z-index: 2;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0px;
+        left: 0;
+      }
+
+      .Header .Header-wrapper .header-right-wrapper{
+        width: 75vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-right: 0px;
+      }
+
+      .Header .Header-wrapper .header-button-back-red{
+        width: 25vw;
+        height: 60px;
+        padding: 0px;
+        text-align: center;
+        border: none;
+        background-color: #0F4C81;
+        font-size: 13px;
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+
+      }
+
+      .Header .Header-wrapper .header-button{
+        width: 25vw;
+        height: 60px;
+        margin-right: 0vw;
+        text-align: center;
+        border: none;
+        background-color: #FFF;
+        font-size: 13px;
+        color: #1D1D1D;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+
+
+
+      }
+
+
+      .Header .Header-wrapper .header-button-red{
+        width: 25vw;
+        height: 60px;
+        text-align: center;
+        border: none;
+        background-color: #FFF;
+        font-size: 13px;
+        color: #1D1D1D;
+        font-family: 'Montserrat', sans-serif;
+
+      }
+
+
+
+  /* ACCROCHE I am a passionate designer + illustration */
+
+
+  .about-screen-wrapper h4 {
+    font-family: 'Montserrat'sans-serif;
+    color: #1D1D1D;
+    width: 400px;
+    margin-right: 0px;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 1pt;
+    margin-bottom: 15px;
+    text-align: center;
+
+  }
+
+
+
+  #table {
+  	display: table;
+  	width: 100%;
+  	height: 100%;
+  }
+
+  #centeralign {
+  	display: table-cell;
+  	vertical-align: middle;
+  }
+
+
+  .typewrite{
+    color: #1D1D1D;
+    text-decoration: none;
+  }
+
+  .H1-Iam span{
+    color: #C44E54;
+
+  }
+
+  .about-screen-wrapper {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+
+
+  .about-screen-wrapper .illustration-about .illustration-about-picture{
+    width: 250px;
+    margin-left: 10vw;
+    margin-right: 70px;
+
+
+  }
+
+  /* (END) ACCROCHE I am a passionate designer + illustration */
+
+  /* Soft skills */
+
+  .text-left-wrapper{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 0px;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+
+  .text-left-wrapper .P-align-self{
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+
+  .text-right-wrapper{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 0px;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+
+  .text-right-wrapper .P2-align-self{
+    font-family: 'Montserrat', sans-serif;
+    align-self: flex-end;
+    text-align: center;
+  }
+
+  .softskills-wrapper .image-softskills img{
+    width: 180px;
+  }
+
+  .softskills-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .softskills-wrapper .text-left-wrapper .text-softskill{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .softskills-wrapper .text-right-wrapper .text-softskill{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100px;
+  }
+
+  /* (END) Soft skills */
+
+  /* Softwares */
+
+  .software-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 80px;
+
+
+  }
+
+  .software-wrapper .image-software{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+  }
+
+  /* (END) Softwares */
+
+  /* Card-competences */
+
+  h3#h3-competences{
+    width: 110px;
+    border-bottom: 4px solid #0F4C81;
+    margin-bottom: 30px;
+  }
+
+  .CARD-WRAPPER{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 0px;
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence{
+    width: 80vw;
+    height: 150px;
+    /*background-image:
+      url("02_Images copie/patern2.jpeg");*/
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
+    margin-top: 20px;
+
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper .title-smallcard{
+    font-family: 'Montserrat'sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1D1D1D;
+    text-align: center;
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper .body-smallcard{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 26px;
+    color: #1D1D1D;
+
+
+  }
+
+  .CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+
+  }
+
+
+
+  /* Card Studies  */
+
+  .CARD-STUDIES{
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #FFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .CARD-STUDIES .card-img-background{
+    width: 80vw;
+    height: 200px;
+    background-color: #FFF;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .CARD-STUDIES .card-wrapper .card-img-background .image-background img{
+    width: 25vw;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  .CARD-STUDIES .card-wrapper{
+    width: 80vw;
+    height: 200px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
+
+  }
+
+  .CARD-STUDIES .card-wrapper .image-text-wrapper{
+    width: 55vw;
+
+  }
+
+  /*.CARD-STUDIES .card-wrapper .number-card{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1D1D1D;
+    opacity: 0.8;
+    margin-top: 0px;
+    width: 250px;
+
+  }*/
+
+  .CARD-STUDIES .card-wrapper .title-card {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #1D1D1D;
+    opacity: 1;
+    width: 43vw;
+    line-height: 30px;
+
+  }
+
+  .CARD-STUDIES .card-wrapper .body-card{
+    width: 700px;
+    text-align: left;
+    width: 250px;
+    margin-left: 0px;
+  }
+
+  .CARD-STUDIES .card-wrapper .body-text-card{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 100px;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 300;
+    width: 43vw;
+  }
+
+  /* (END) Card Studie */
+
+  /* FOOTER */
+    .Footer {
+      width: 100vw;
+      height: 115px;
+      padding-bottom: 40px;
+      background-color: #0F4C81;
+      position: static;
+      z-index: 1;
+
+
+    }
+
+    .Footer .Footer-wrapper{
+      margin-right: 5vw;
+      margin-left: 5vw;
+      margin-bottom: 0px;
+      height: 100%;
+      text-align: right;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+    }
+
+    .Footer .Footer-wrapper .text-me{
+      text-align: left;
+      color: #FFF;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 25px;
+      margin-top: 0px;
+      font-size: 13px;
+    }
+
+    .Footer .Footer-wrapper .text-me a{
+      color: #FFF;
+      font-size: 13px;
+    }
+
+
+    .Footer .Footer-wrapper .footer-button-back-red{
+      width: 120px;
+      height: 100px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+      border: none;
+      background-color: #FFF;
+      font-size: 13px;
+      color: #1D1D1D;
+      font-family: 'Montserrat', sans-serif;
+
+
+    }
+
+    .Footer .Footer-wrapper .footer-button{
+      width: 120px;
+      height: 30px;
+      text-align: center;
+      border: none;
+      background-color: #FFF;
+      font-size: 13px;
+      color: #1D1D1D;
+      font-family: 'Montserrat', sans-serif;
+      align-self: flex-start;
+      opacity: 0;
+
+
+    }
+
+    .Footer .Footer-wrapper .wrapper1{
+      margin-right: 0px;
+      margin-top: 73px;
+      display: flex;
+      flex-direction: column-reverse;
+
+    }
+
+    .Footer .Footer-wrapper .footer-button-red{
+      width: 120px;
+      height: 30px;
+      justify-content: flex-start;
+      text-align: center;
+      border: none;
+      background-color: #0F4C81;
+      font-size: 13px;
+      color: #FFF;
+      font-family: 'Montserrat', sans-serif;
+
+    }
+}
+}
