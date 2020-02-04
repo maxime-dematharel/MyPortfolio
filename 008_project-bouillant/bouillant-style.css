@@ -389,19 +389,19 @@ START RESPONISIVE*/
 
   #overview{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     font-size: 15px;
     line-height: 40px;
     letter-spacing: 0.7px;
-    width: 80vw;
+    width: 90vw;
 
   }
 
   h3#h3-overview{
     width: 130px;
     border-bottom: 4px solid #0F4C81;
-    margin-left: 10vw;
+    margin-left: 5vw;
   }
 
   #services{
@@ -409,15 +409,15 @@ START RESPONISIVE*/
     font-size: 18px;
     line-height: 40px;
     letter-spacing: 0.7px;
-    width: 80vw;
-    margin-left: 10vw;
+    width: 90vw;
+    margin-left: 5vw;
 
   }
 
   h3#h3-services{
     width: 75px;
     border-bottom: 4px solid #0F4C81;
-    margin-left: 10vw;
+    margin-left: 5vw;
   }
 
   .overview-wrapper{
@@ -428,18 +428,18 @@ START RESPONISIVE*/
   }
 
   .image-mockup{
-    width: 80%;
+    width: 9vw;
     height: auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 50px;
     margin-bottom: 0px;
   }
 
   .image-mockup2{
-    width: 80%;
+    width: 9vw;
     height: auto;
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-right: 0vw;
     margin-top: 50px;
     margin-bottom: 0px;
@@ -488,12 +488,12 @@ START RESPONISIVE*/
   }
 
   .homepage-wrapper .text-header-project .title-header-project{
-    width: 80vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 10vw;
+    margin-left: 5vw;
 
   }
 
@@ -517,12 +517,12 @@ START RESPONISIVE*/
   }
 
   .homepage-wrapper .text-header-project .paragraphe-header-project{
-    width: 80vw;
+    width: 90vw;
     line-height: 40px;
     font-size: 15px;
     letter-spacing: 0.7px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
 
