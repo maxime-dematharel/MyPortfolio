@@ -332,7 +332,7 @@ h3#h3-project{
       left: 0;
       right: 0;
       height: auto;
-      width: ;
+      width: 100%;
       opacity: 0.5;
       transition: .7s ease;
       background-color: #000;
