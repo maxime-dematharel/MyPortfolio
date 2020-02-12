@@ -1089,12 +1089,12 @@ h4{
 
   .body-text{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.7px;
-    width: 90vw;
+    width: 84vw;
   }
 
   h1{
@@ -1117,7 +1117,7 @@ h4{
   h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    margin-left: 5vw;
+    margin-left: 8vw;
     margin-top: 60px;
     margin-bottom: 50px;
     color: #1D1D1D;
@@ -1348,8 +1348,8 @@ h4{
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     margin-bottom: 0px;
 
 
@@ -1379,14 +1379,14 @@ h4{
     flex-direction: column;
     justify-content: space-between;
     width: 90vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     margin-top: 0px;
 
   }
 
   .CARD-WRAPPER .Smallcard-competence{
-    width: 90vw;
+    width: 84vw;
     height: 150px;
     /*background-image:
       url("02_Images copie/patern2.jpeg");*/
@@ -1442,8 +1442,8 @@ h4{
   /* Card Studies  */
 
   .CARD-STUDIES{
-    margin-right: 5vw;
-    margin-left: 5vw;
+    margin-right: 8vw;
+    margin-left: 8vw;
     margin-top: 35px;
     margin-bottom: 35px;
     background-color: #FFF;
@@ -1455,7 +1455,7 @@ h4{
   }
 
   .CARD-STUDIES .card-img-background{
-    width: 90vw;
+    width: 84vw;
     height: 200px;
     background-color: #FFF;
     border-radius: 20px 0px 0px 20px;
@@ -1474,7 +1474,7 @@ h4{
   }
 
   .CARD-STUDIES .card-wrapper{
-    width: 90vw;
+    width: 84vw;
     height: 200px;
     background-color: #F9F9F9;
     display: flex;
