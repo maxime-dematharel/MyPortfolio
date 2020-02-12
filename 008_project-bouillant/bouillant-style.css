@@ -728,10 +728,10 @@ h3#h3-services{
   /* homepage project screen */
 
   .img-background{
-    width: 90vw;
+    width: 84vw;
     height: 500px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     margin-top: 80px;
     overflow: hidden;
     display: flex;
@@ -745,11 +745,11 @@ h3#h3-services{
   }
 
   .img-text-wrapper{
-    width: 90vw;
+    width: 84vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
@@ -772,10 +772,10 @@ h3#h3-services{
   }
 
   .intro-text-wrapper{
-    width: 90vw;
+    width: 84vw;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     margin-top: 32px;
     font-size: 15px;
     line-height: 28px;
@@ -795,59 +795,60 @@ h3#h3-services{
 
   #overview{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     font-size: 15px;
-    line-height: 40px;
+    line-height: 28px;
     letter-spacing: 0.7px;
-    width: 90vw;
+    width: 84vw;
 
   }
 
   #services{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     font-size: 15px;
-    line-height: 40px;
+    line-height: 28px;
     letter-spacing: 0.7px;
-    width: 90vw;
+    width: 84vw;
 
   }
 
   h3#h3-overview{
     width: 130px;
     border-bottom: 4px solid #0F4C81;
-    margin-left: 5vw;
+    margin-left: 8vw;
   }
 
   h3#h3-services{
     width: 75px;
     border-bottom: 4px solid #0F4C81;
-    margin-left: 5vw;
+    margin-left: 8vw;
   }
 
   .overview-wrapper{
-    width: 90vw;
+    width: 84vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 10vw;
+    margin-right: 8vw;
   }
 
   .image-mockup{
-    width: 90%;
+    width: 84%;
     height: auto;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     margin-top: 60px;
     margin-bottom: 60px;
     z-index: 0;
   }
 
   .image-mockup2{
-    width: 90%;
+    width: 84%;
     height: auto;
-    margin-left: 5vw;
+    margin-left: 8vw;
     right: 0;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -855,9 +856,9 @@ h3#h3-services{
   }
 
   .image-mockup3{
-    width: 90%;
+    width: 84%;
     height: auto;
-    margin-left: 5vw;
+    margin-left: 8vw;
     right: 0;
     margin-top: 60px;
     margin-bottom: 40px;

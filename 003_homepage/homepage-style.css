@@ -1210,21 +1210,20 @@ body{
     /* HOMEPAGE */
 
     .homepage-illustration-citation-wrapper .homepage-screen-illustration{
-      width: 90vw;
+      width: 84vw;
       height: 350px;
       background-color: #FFF;
       text-align: center;
-      border-bottom-right-radius: 10px;
       z-index: 1;
 
 
     }
 
     .homepage-illustration-citation-wrapper .homepage-screen-illustration .illustration-homepage{
-      width: 90vw;
+      width: 84vw;
       height: 350px;
       object-fit: cover;
-      border-bottom-right-radius: 10px;
+      border-bottom-right-radius: 0px;
 
     }
 
@@ -1292,10 +1291,10 @@ body{
       padding-right: 0px;
       flex: 0 0 auto;
       font-size: 15px;
-      width: 90vw;
+      width: 84vw;
       margin-top: 5vw;
       padding-left: 0px;
-      line-height: 30px;
+      line-height: 28px;
       font-weight: bolder;
       letter-spacing: 1px;
       z-index: 1;
@@ -1439,11 +1438,11 @@ body{
 
   .container {
     position: relative;
-    width: 90vw;
+    width: 84vw;
     height: 500px;
     overflow: hidden;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     margin-top: 0px;
     overflow: hidden;
     display: flex;
@@ -1491,7 +1490,7 @@ body{
   }
 
   .text .intro{
-    line-height: 26px;
+    line-height: 28px;
   }
 
   .text a{
@@ -1518,9 +1517,9 @@ body{
         .card-medium-wrapper{
           display: flex;
           flex-direction: column;
-          margin-left: 5vw;
-          margin-right: 5vw;
-          width: 90vw;
+          margin-left: 8vw;
+          margin-right: 8vw;
+          width: 84vw;
           height: auto;
           margin-bottom: 0px;
 
