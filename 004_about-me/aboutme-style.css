@@ -1089,12 +1089,12 @@ h4{
 
   .body-text{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    font-size: 13px;
-    line-height: 26px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 15px;
+    line-height: 28px;
     letter-spacing: 0.7px;
-    width: 80vw;
+    width: 90vw;
   }
 
   h1{
@@ -1111,6 +1111,17 @@ h4{
   h1 span{
     font-weight: 400;
     font-size: 18px;
+
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 5vw;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    color: #1D1D1D;
+    padding-bottom: 10px;
 
   }
 
@@ -1337,9 +1348,9 @@ h4{
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 80px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 0px;
 
 
   }
@@ -1367,15 +1378,15 @@ h4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 0px;
 
   }
 
   .CARD-WRAPPER .Smallcard-competence{
-    width: 80vw;
+    width: 90vw;
     height: 150px;
     /*background-image:
       url("02_Images copie/patern2.jpeg");*/
@@ -1431,8 +1442,8 @@ h4{
   /* Card Studies  */
 
   .CARD-STUDIES{
-    margin-right: 10vw;
-    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
     margin-top: 35px;
     margin-bottom: 35px;
     background-color: #FFF;
@@ -1444,7 +1455,7 @@ h4{
   }
 
   .CARD-STUDIES .card-img-background{
-    width: 80vw;
+    width: 90vw;
     height: 200px;
     background-color: #FFF;
     border-radius: 20px 0px 0px 20px;
@@ -1463,7 +1474,7 @@ h4{
   }
 
   .CARD-STUDIES .card-wrapper{
-    width: 80vw;
+    width: 90vw;
     height: 200px;
     background-color: #F9F9F9;
     display: flex;
@@ -1512,14 +1523,15 @@ h4{
     width: 700px;
     text-align: left;
     width: 250px;
-    margin-left: 0px;
+    margin-left: 8px;
+    margin-top: -16px
   }
 
   .CARD-STUDIES .card-wrapper .body-text-card{
     font-family: 'Montserrat', sans-serif;
     margin-right: 100px;
     font-size: 13px;
-    line-height: 30px;
+    line-height: 28px;
     font-weight: 300;
     width: 43vw;
   }
