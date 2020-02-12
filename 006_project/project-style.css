@@ -321,11 +321,11 @@ h3#h3-project{
     }
 
     .image {
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 100%;
     }
 
-    .container .overlay {
+     .overlay {
       position: absolute;
       top: 0;
       bottom: 0;
