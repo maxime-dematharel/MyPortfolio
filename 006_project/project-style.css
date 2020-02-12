@@ -638,6 +638,7 @@ h3#h3-project{
               text-align: center;
               border: none;
               background-color: #0F4C81;
+              opacity: 0;
               font-size: 13px;
               color: #FFF;
               font-family: 'Montserrat', sans-serif;
