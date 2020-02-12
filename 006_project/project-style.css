@@ -512,7 +512,7 @@ h3#h3-project{
               left: 0;
               right: 0;
               height: 100%;
-              width: 100%;
+              width: auto;
               opacity: 0.7;
               background-color: #000;
             }
@@ -544,6 +544,97 @@ h3#h3-project{
 
 
             /* (END) Card Studie */
+
+            /* FOOTER */
+            .Footer {
+              width: 100vw;
+              height: 115px;
+              padding-bottom: 40px;
+              background-color: #0F4C81;
+              position: static;
+              z-index: 1;
+
+
+            }
+
+            .Footer .Footer-wrapper{
+              margin-right: 5vw;
+              margin-left: 5vw;
+              margin-bottom: 0px;
+              height: 100%;
+              text-align: right;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+              top: 0;
+            }
+
+            .Footer .Footer-wrapper .text-me{
+              text-align: left;
+              color: #FFF;
+              font-family: 'Montserrat', sans-serif;
+              line-height: 25px;
+              margin-top: 0px;
+              font-size: 13px;
+            }
+
+            .Footer .Footer-wrapper .text-me a{
+              color: #FFF;
+              font-size: 13px;
+            }
+
+
+            .Footer .Footer-wrapper .footer-button-back-red{
+              width: 120px;
+              height: 100px;
+              padding-top: 30px;
+              padding-bottom: 30px;
+              text-align: center;
+              border: none;
+              background-color: #FFF;
+              font-size: 13px;
+              color: #1D1D1D;
+              font-family: 'Montserrat', sans-serif;
+
+
+            }
+
+            .Footer .Footer-wrapper .footer-button{
+              width: 120px;
+              height: 30px;
+              text-align: center;
+              border: none;
+              background-color: #FFF;
+              font-size: 13px;
+              color: #1D1D1D;
+              font-family: 'Montserrat', sans-serif;
+              align-self: flex-start;
+              opacity: 0;
+
+
+            }
+
+            .Footer .Footer-wrapper .wrapper1{
+              margin-right: 0px;
+              margin-top: 73px;
+              display: flex;
+              flex-direction: column-reverse;
+
+            }
+
+            .Footer .Footer-wrapper .footer-button-red{
+              width: 120px;
+              height: 30px;
+              justify-content: flex-start;
+              text-align: center;
+              border: none;
+              background-color: #0F4C81;
+              font-size: 13px;
+              color: #FFF;
+              font-family: 'Montserrat', sans-serif;
+
+            }
 
 
 }
