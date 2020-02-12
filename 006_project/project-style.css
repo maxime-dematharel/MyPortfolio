@@ -485,6 +485,14 @@ h3#h3-project{
 
       /* Card Latest Work  */
 
+      #section{
+        width: 80vw;
+        height: 100%;
+        margin-top: 100px;
+        margin-bottom: 60px;
+      }
+
+
             .container {
               position: relative;
               width: 90vw;
