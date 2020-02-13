@@ -72,7 +72,6 @@ button{
 
 .Header .Header-wrapper .header-button:hover{
   color: #1D1D1D;
-  cursor: not-allowed;
 }
 
 .Header .Header-wrapper .header-button-red{
