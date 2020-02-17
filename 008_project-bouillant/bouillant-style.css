@@ -257,15 +257,32 @@ h3#h3-services{
 }
 
 
+
 .continue-read{
-  width: 80vw;
+  width: 150px;
   height: 50px;
-  margin-right: 10vw;
-  margin-left: 10vw;
-  margin-bottom: 16px;
-  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #0F4C81;
+  color: #0F4C81;
+  margin-top: 20px;
+  margin-bottom: 60px;
+
 
 }
+
+.continue-read:hover{
+  background-color: #0F4C81;
+  color: #fff;
+  border: 2px solid;
+  border-color: #0F4C81;
+  font-weight: bold;
+}
+
+
+
 /* FOOTER */
 
 .Footer {
